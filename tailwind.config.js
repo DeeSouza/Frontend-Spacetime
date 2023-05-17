@@ -7,13 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        "5xl": "2.5rem",
+      },
+
       fontFamily: {
         sans: "var(--font-roboto)",
         alt: "var(--font-bai-jamjuree)",
-      },
-
-      fontSize: {
-        "5xl": "2.5rem",
       },
 
       colors: {
